@@ -1,0 +1,244 @@
+<html>
+<head>
+     <title>registration</title>
+	 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<style>
+	#success_message{ display: none;}
+	body{ background-color:#1a5874;}
+	</style>
+</head>
+
+     <body>
+	        <nav class="navbar navbar-inverse" style="width:100%;">
+        <div class="container-fluid" style="margin-left:200px; width:72%;">
+            <p style="color:white;">IMPORTANT NOTICE: CNA would like to place cookies on your computer to improve your use of this website. To learn more, see our Privacy Statement. By continuing to use this website you shall be deemed to have consented to our use of cookies and to have accepted our website Privacy Policy.</p>
+            <p style="font-family:'Bell MT'; color:white;">Continue</p>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#" style="color:red; background-color:white;"><i>CNA</i></a>
+            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">REPORT A CLAIM</a></li>
+                <li><a href="#">PAY MY BILL</a></li>
+                <li><a href="#">CONTACT US</a></li>
+            </ul>
+            <form class="navbar-form navbar-left" action="#">
+                <div class="input-group">
+                    <input type="text" class="form-control" placeholder="SEARCH CNA" name="search">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default" type="submit">
+                            <i class="glyphicon glyphicon-search"></i>
+                        </button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </nav>   
+    	 
+	 
+	 
+	     
+		 <div class="container">
+
+    <form class="well form-horizontal" action=" " method="post"  id="contact_form">
+<fieldset>
+
+<!-- Form Name -->
+<legend><center><h2><b>Registration Form</b></h2></center></legend><br>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">First Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="first_name" placeholder="First Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Last Name</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="last_name" placeholder="Last Name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+ <div class="form-group">
+  <label class="col-md-4 control-label">E-Mail</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+  <input name="email" placeholder="E-Mail Address" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Institution Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="institution_name" placeholder="Institution name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<div class="form-group"> 
+  <label class="col-md-4 control-label">Role</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="role" class="form-control selectpicker">
+      <option value="">Select your role</option>
+      <option>BUSINESS OWNER</option>
+      <option>CEO/PRESIDENT</option>
+      <option >CEO/FINANCE MANAGER</option>
+      <option >HUMAN RESOURCES MANAGER</option>
+      <option >SAFETY MANAGER</option>
+      <option >OTHER</option>
+    </select>
+  </div>
+</div>
+</div>
+
+<div class="form-group"> 
+  <label class="col-md-4 control-label">state</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="state" class="form-control selectpicker">
+      <option value="">Select your state</option>
+      <option>KARNATAKA</option>
+      <option>KERALA</option>
+      <option >TAMILNADU</option>
+      <option >ANDHRAPRADESH</option>
+      <option >MAHARASHTRATRA</option>
+      <option >GOA</option>
+    </select>
+  </div>
+</div>
+</div>
+
+
+  <div class="form-group"> 
+  <label class="col-md-4 control-label">Categary</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="category" class="form-control selectpicker">
+      <option value="">Select a Category</option>
+      <option>HEALTHCARE</option>
+      <option>CONSTRUCTION</option>
+      <option >CONSTRUCTION</option>
+      <option >FINANCIAL</option>
+      <option >MANUFACTURING</option>
+      <option >REAL ESTATE</option>
+      <option >RETAIL</option>
+      <option >WHOLESALE</option>
+      <option >TECHNOLOGY</option>
+    </select>
+  </div>
+</div>
+</div>
+
+ <div class="form-group"> 
+  <label class="col-md-4 control-label">Specialization</label>
+    <div class="col-md-4 selectContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-list"></i></span>
+    <select name="specialization" class="form-control selectpicker">
+      <option value="">Select a Specialization</option>
+      <option>PRIVATE COLLEGES AND UNIVERSITIES</option>
+      <option>PRIVATE SECONDARY SCHOOLS</option>
+      <option >ANY SPECIALIZATION</option>
+    </select>
+  </div>
+</div>
+</div>
+  
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label">Institution Name</label>  
+  <div class="col-md-4 inputGroupContainer">
+  <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input  name="institution_name" placeholder="Intitution name" class="form-control"  type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Password</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="user_password" placeholder="Password" class="form-control"  type="password">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+
+<div class="form-group">
+  <label class="col-md-4 control-label" >Confirm Password</label> 
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+  <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+  <input name="confirm_password" placeholder="Confirm Password" class="form-control"  type="password">
+    </div>
+  </div>
+</div>
+
+<!-- Text input-->
+      
+
+
+<!-- Text input-->
+       
+<div class="form-group">
+  <label class="col-md-4 control-label">Contact No.</label>  
+    <div class="col-md-4 inputGroupContainer">
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-earphone"></i></span>
+  <input name="contact_no" placeholder="(639)" class="form-control" type="text">
+    </div>
+  </div>
+</div>
+
+<!-- Select Basic -->
+
+<!-- Success message -->
+<div class="alert alert-success" role="alert" id="success_message">Success <i class="glyphicon glyphicon-thumbs-up"></i> Success!.</div>
+
+<!-- Button -->
+<div class="form-group">
+  <label class="col-md-4 control-label"></label>
+  <div class="col-md-4"><br>
+    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<button type="submit" class="btn btn-warning" >&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspSUBMIT <span class="glyphicon glyphicon-send"></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</button>
+  </div>
+</div>
+
+</fieldset>
+</form>
+</div>
+    </div>
+	 
+	 
+	 
+	 
+	 
+	 
+	 </body>
+</html>
