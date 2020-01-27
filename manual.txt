@@ -1,0 +1,18 @@
+* link for asp.net tutorial
+https://docs.microsoft.com/en-us/aspnet/web-forms/overview/getting-started/creating-a-basic-web-forms-page
+===============================================================
+* login page using datbase
+https://www.c-sharpcorner.com/article/how-to-create-login-page-in-asp-net-web-application-using-c-sharp-and-sql-server/
+===============================================================
+* registering and then login with backend
+https://www.msdotnet.co.in/2013/04/how-to-make-registration-and-login-form.html#.Xi8hVGgzbIU
+===============================================================
+* adding css styles in asp.net
+https://www.c-sharpcorner.com/UploadFile/2f59d0/attached-css-change-css-and-style-in-Asp-Net/
+================================================================
+*Including boostrap in asp.net
+https://www.mytecbits.com/microsoft/dot-net/how-to-add-bootstrap-in-asp-net#WebFormsManual
+================================================================
+* linking btwn webpages
+https://www.javatpoint.com/asp-net-hyperlink
+==================================================================
