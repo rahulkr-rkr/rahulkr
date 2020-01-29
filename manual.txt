@@ -16,3 +16,18 @@ https://www.mytecbits.com/microsoft/dot-net/how-to-add-bootstrap-in-asp-net#WebF
 * linking btwn webpages
 https://www.javatpoint.com/asp-net-hyperlink
 ==================================================================
+https://www.c-sharpcorner.com/article/how-to-connect-sql-database-in-asp-net-using-c-sharp-and-insert-and-view-the-data-usi/
+
+https://www.c-sharpcorner.com/UploadFile/9582c9/insert-update-delete-display-data-in-mysql-using-C-Sharp/
+
+https://www.c-sharpcorner.com/topics/sql-server
+=============================================================================================
+* joining 2 tables
+https://www.c-sharpcorner.com/UploadFile/rohatash/joining-three-or-more-tables-in-sql-server-2012/
+===============================================================================================
+* connecton code
+string connString = @"Server =.\SQL2K17; Database = SampleDB; Trusted_Connection = True;";
+=================================================================================================
+*Displaying Data from a Database
+https://docs.microsoft.com/en-us/aspnet/web-pages/overview/data/5-working-with-data
+===================================================================================================
