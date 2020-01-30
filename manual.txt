@@ -21,6 +21,8 @@ https://www.c-sharpcorner.com/article/how-to-connect-sql-database-in-asp-net-usi
 https://www.c-sharpcorner.com/UploadFile/9582c9/insert-update-delete-display-data-in-mysql-using-C-Sharp/
 
 https://www.c-sharpcorner.com/topics/sql-server
+
+https://docs.microsoft.com/en-us/aspnet/web-pages/overview/getting-started/introducing-aspnet-web-pages-2/displaying-data
 =============================================================================================
 * joining 2 tables
 https://www.c-sharpcorner.com/UploadFile/rohatash/joining-three-or-more-tables-in-sql-server-2012/
